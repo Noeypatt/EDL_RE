@@ -1,0 +1,30 @@
+.Bar
+{
+    margin-top: 0%;
+    margin-left:-1.5%;
+    margin-right: 0%;
+    background-color:#0693e3; /*#e3f2fd  */ 
+    
+}
+.Barin
+{
+    margin-top: 0%;
+    margin-left:-1%;
+    margin-right: 0%;
+    background-color:#0693e3;
+}
+
+.barL
+{
+    color:white;
+    margin-left:0px;
+    text-align: center;
+}
+
+.barR
+{
+    color:white;
+    margin-top: 0%;
+    
+    text-align: right;
+}
