@@ -40,7 +40,7 @@ class Sheets extends Component {
                             <div class="col-lg-12 col-sm-12 col-xs-12" >
                                 <Table  className="content" >
                                     <TableHead >
-                                        <TableRow  >
+                                        <TableRow className = "font"  >
                                             <TableCell align="center"><h6  >จังหวัด</h6></TableCell>
                                             <TableCell><h6 >อำเภอ</h6></TableCell>
                                             <TableCell><h6 >อปท</h6></TableCell>
@@ -52,12 +52,12 @@ class Sheets extends Component {
                                             <TableCell><h6 >จำนวนเงินทั้งสิ้น</h6></TableCell>
                                         </TableRow>
                                     </TableHead>
-                                    <TableBody>
+                                    <TableBody className = "font">
 
                                         {data.map(obj => (
                                             <TableRow align="center" key={obj.จังหวัด}>
-                                                <TableCell ><p >{obj.จังหวัด}</p></TableCell>
-                                                <TableCell ><p >{obj.อำเภอ}</p></TableCell>
+                                                <TableCell ><p>{obj.จังหวัด}</p></TableCell>
+                                                <TableCell ><p>{obj.อำเภอ}</p></TableCell>
                                                 <TableCell ><p>{obj.อปท}</p></TableCell>
                                                 <TableCell ><p>{obj.อายุ60ถึง69ปี}</p></TableCell>
                                                 <TableCell ><p>{obj.อายุ70ถึง79ปี}</p></TableCell>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Route, Router} from "react-router-dom"
+import { Route, Router } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Home from './Home/Home'
@@ -20,19 +20,19 @@ const customHistory = createBrowserHistory()
 
 ReactDOM.render(
     <Router history={customHistory}>
-         <div>
-             
+        <div>
+            <header><link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet" /></header>
             <Route exact path="/" component={Home} />
             <Route path="/App" component={App} />
-            <Route path="/Expand" component={Expand}/>
-            <Route path="/News" component={News}/>
-            <Route path="/Activities" component={Activities}/>
-            <Route path="/Allowance" component={Allowance}/>
-            <Route path="/Health" component={Health}/>
-            <Route path="/Wecare" component={Wecare}/>
-            
+            <Route path="/Expand" component={Expand} />
+            <Route path="/News" component={News} />
+            <Route path="/Activities" component={Activities} />
+            <Route path="/Allowance" component={Allowance} />
+            <Route path="/Health" component={Health} />
+            <Route path="/Wecare" component={Wecare} />
 
-         
-             
+
+
+
         </div>
     </Router>, document.getElementById('root'));

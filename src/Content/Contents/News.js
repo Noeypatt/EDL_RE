@@ -8,11 +8,11 @@ class News extends Component {
     render()
     {
         return(
-            <div >
+            <div className="font">
                  <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin">
-                            <a href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
+                            <a class="nav-link active" href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
 
                         </div>
                     </div>
@@ -20,9 +20,9 @@ class News extends Component {
 
                 <br/>
 
-                <div class="container-fluid"  >
+                <div  class="container-fluid"  >
                     <div class="row" >
-                        <div id="font" class="col-lg-12 col-xs-12">
+                        <div class="col-lg-12 col-xs-12">
                             <Sheets/>
 
                         </div>

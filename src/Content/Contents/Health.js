@@ -8,12 +8,12 @@ class Health extends Component {
 
     render() {
         return (
-            <div >
+            <div className = "font" >
 
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin">
-                            <a href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
+                            <a class="nav-link active" href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
 
                         </div>
                     </div>
@@ -21,12 +21,12 @@ class Health extends Component {
 
                 <br />
                 <div>
-                <h4 >5 โรคเฝ้าระวังในผู้สูงอายุ</h4>
+                <h4 >5 โรคเฝ้าระวังในผู้สูงอายุ</h4><br />
                 <H1 /><br /><br />
                 </div>
 
                 <div>
-                <h4>สุขภาพของผู้สูงอายุในเเต่ละอำเภอ</h4>
+                <h4>สุขภาพของผู้สูงอายุในเเต่ละอำเภอ</h4><br />
                 <H2/>
                 </div>
 

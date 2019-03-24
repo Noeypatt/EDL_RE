@@ -5,11 +5,11 @@ import './GB.css'
 class Activities extends Component {
     render() {
         return (
-            <div >
+            <div className = "font">
                 <div  class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-12" className="Barin">
-                            <a href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
+                            <a class="nav-link active" href="/APP"><h5 className="Barin">ย้อนกลับ</h5></a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ class Activities extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">กิจกรรมที่ผู้สูงอายุสามารถทำเป็นกิจวัตรประจำวันได้</h5>
                                 <p class="card-text">เป็นกิจกรรมที่ผู้สูงอายุสามารถทำเป็นกิจวัตรประจำวันด้วยตนเองที่บ้าน หรือในยามว่างหลังเสร็จภารกิจจากการทำงาน ถือเป็นกิจกรรม ได้แก่ งานบ้าน กวาดและถูบ้าน รดน้ำต้นไม้ กวาดใบไม้ เดินขึ้นลงบันได เลี้ยงหลาน และการยกสิ่งของ เป็นต้น</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ class Activities extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">กิจกรรมการเดินทาง</h5>
                                 <p class="card-text">โดยวิธีการเดิน ปั่นจักรยาน หรือการเดินทางโดยระบบขนส่งมวลชนสาธารณะ ได้แก่ การเดินไปจ่ายตลาดในบริเวณใกล้เคียง การเดินไปทำงาน การขี่จักรยาน หรือการเดินขึ้นลงบันได</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ class Activities extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">กิจกรรมเชิงสันทนาการ</h5>
                                 <p class="card-text">อาจจะเป็นการทำงานอดิเรก เพื่อผ่อนคลายความตึงเครียดทางร่างกาย ส่งเสริมสุขภาพจิตใจและสมองให้กับผู้สูงอายุ ในช่วงเวลาว่างจากการทำงาน บ้านหรือกิจกรรมประจำวันอื่นๆ เช่น การร้องเพลง การเต้นรำ การวาดภาพ การถ่ายรูป การปลูกต้นไม้ เป็นต้น</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ class Activities extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">กิจกรรมในรูปแบบการออกกำลังกายง่าย ๆ</h5>
                                 <p class="card-text">เช่น ลีลาศ การรำไทเก็ก รำไม้พลอง</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
                             </div>
                         </div>
 
@@ -85,7 +85,7 @@ class Activities extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">กิจกรรมที่อยู่ภายใต้การดูแล</h5>
                                 <p class="card-text">เป็นกิจกรรมที่อยู่ภายใต้การดูแลของแพทย์ และเจ้าหน้าที่สาธารณสุข หรือนักกายภาพบำบัด</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                
                             </div>
                         </div>
 

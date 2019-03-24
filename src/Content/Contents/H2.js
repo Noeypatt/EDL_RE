@@ -32,13 +32,13 @@ class H2 extends Component {
     render() {
         const { data } = this.state
         return (
-            <div >
+            <div className = "font" >
                 <div >
                     <div align="center" class="container-fluid" >
                         <div class="row" >
                             <div class="col-lg-9 col-sm-12 col-xs-12" >
                                 <Table  className="content" >
-                                    <TableHead >
+                                    <TableHead className = "font" >
                                         <TableRow  >
                                             <TableCell align="center"><h6 >จังหวัด</h6></TableCell>
                                             <TableCell><h6 >อำเภอ</h6></TableCell>
@@ -50,7 +50,7 @@ class H2 extends Component {
                                            
                                         </TableRow>
                                     </TableHead>
-                                    <TableBody>
+                                    <TableBody className = "font">
 
                                         {data.map(obj => (
                                             <TableRow key={obj.ลำดับที่ }>

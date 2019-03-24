@@ -9,16 +9,16 @@ class GButton extends Component {
                     <div class="row" >
                         <div class="col-lg-12" >
                             <div >
-                                <h1 align='center' >Hello</h1>
+                                <h1 align='center'>Hello</h1>
                                 <br />
 
-                                <div class="container-fluid" align="center" >
+                                <div class="font" class="container-fluid" align="center" >
                                     <div class="row" >
                                     <div class="col-lg-1" >
                                             
                                         </div>
 
-                                        <div class="col-lg-2" >
+                                        <div className="font" class="col-lg-2" >
                                             <a  href="/News" ><button  type="button" class="btn btn-primary">เรื่องเล่าวันใหม่</button></a>
                                         </div>
 

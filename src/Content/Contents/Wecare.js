@@ -13,7 +13,7 @@ class Wecare extends Component{
     render()
     {
         return(
-            <div>
+            <div className = "font">
                  <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin" >
