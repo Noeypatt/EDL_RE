@@ -22,7 +22,7 @@ class GButton extends Component {
                                         </div>
 
                                         <div class="col-lg-2" >
-                                            <a href="/Activities" ><button  type="button" class="btn btn-primary">กิจกรรม</button></a>
+                                            <a href="/Activities" ><button  type="button" class="btn btn-primary">การดูเเลผู้สูงอายุ</button></a>
                                         </div>
 
                                         <div class="col-lg-2" >
