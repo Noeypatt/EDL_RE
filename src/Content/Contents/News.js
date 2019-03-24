@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import '../../Header/Header.css'
+import Sheets from '../Contents/Sheets'
 
 
 
@@ -17,7 +18,16 @@ class News extends Component {
                     </div>
                 </div>
 
-                <br />
+                <br/>
+
+                <div class="container-fluid" >
+                    <div class="row" >
+                        <div class="col-lg-12 col-xs-12">
+                            <Sheets/>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
         )
