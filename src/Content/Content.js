@@ -8,7 +8,7 @@ class Content extends Component {
 
     render() {
         return (
-            <div className="pic" >
+            <div className="con" >
                
                  <img  src ={SH} width="100%"  /><br/><br/>
                 

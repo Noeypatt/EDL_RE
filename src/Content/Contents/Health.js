@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import H1 from "../Contents/H1"
 import H2 from "../Contents/H2"
-import '../../Header/Header.css'
+import './GB.css'
 
 
 class Health extends Component {
@@ -21,12 +21,12 @@ class Health extends Component {
 
                 <br />
                 <div>
-                <h4 className="content">5 โรคเฝ้าระวังในผู้สูงอายุ</h4>
+                <h4 >5 โรคเฝ้าระวังในผู้สูงอายุ</h4>
                 <H1 /><br /><br />
                 </div>
 
                 <div>
-                <h4 className="content">สุขภาพของผู้สูงอายุในเเต่ละอำเภอ</h4>
+                <h4>สุขภาพของผู้สูงอายุในเเต่ละอำเภอ</h4>
                 <H2/>
                 </div>
 

@@ -6,7 +6,8 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import '../../Header/Header.css'
+
+import '../Content.css'
 
 
 class H1 extends Component {

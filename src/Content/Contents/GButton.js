@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import '../Content.css'
 
 class GButton extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-12" >

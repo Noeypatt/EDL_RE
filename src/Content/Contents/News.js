@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import '../../Header/Header.css'
+import './GB.css'
 import Sheets from '../Contents/Sheets'
 
 
@@ -8,7 +8,7 @@ class News extends Component {
     render()
     {
         return(
-            <div>
+            <div >
                  <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin">
@@ -20,9 +20,9 @@ class News extends Component {
 
                 <br/>
 
-                <div class="container-fluid" >
+                <div class="container-fluid"  >
                     <div class="row" >
-                        <div class="col-lg-12 col-xs-12">
+                        <div id="font" class="col-lg-12 col-xs-12">
                             <Sheets/>
 
                         </div>

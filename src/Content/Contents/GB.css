@@ -1,4 +1,4 @@
-.Bar
+.Barin
 {
     background-color: #0693e3;
     width: 100%;
@@ -6,15 +6,12 @@
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 0%;
-    margin-right: 0%;
+    margin-right: 0%;  
+    color: white;
 }
 
-/*#0693e3*/
-/* position: fixed;*/
-
-
-.nav-link h5
+#font
 {
     font-family: 'Prompt', sans-serif;
+    
 }
-

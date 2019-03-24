@@ -58,7 +58,7 @@ class H2 extends Component {
                                                 <TableCell ><p>{obj.อำเภอ}</p></TableCell>
                                                 <TableCell ><p>{obj.อปท}</p></TableCell>
                                                 <TableCell ><p>{obj.ผู้พิการ}</p></TableCell>
-                                                <TableCell ><p>{obj.ไม่สามารถใช้ชีวิตประจำวันเองได้}</p></TableCell>
+                                                <TableCell  align="center"><p>{obj.ไม่สามารถใช้ชีวิตประจำวันเองได้}</p></TableCell>
                                                 <TableCell ><p>{obj.ชาย}</p></TableCell>
                                                 <TableCell ><p>{obj.หญิง}</p></TableCell>                                   
                                             </TableRow>

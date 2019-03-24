@@ -8,7 +8,7 @@ import YouTube from 'react-youtube';
 import logoph from '../../Content/logoph.png'
 import logodop from '../../Content/logodop.png'
 import Namelist from './Namelist'
-import '../../Header/Header.css'
+import './GB.css'
 
 class Allowance extends Component {
 

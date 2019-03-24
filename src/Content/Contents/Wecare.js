@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import YouTube from 'react-youtube';
 import logoph from '../../Content/logoph.png'
 import logodop from '../../Content/logodop.png'
-import '../../Header/Header.css'
+import './GB.css'
 
 class Wecare extends Component{
     render()
