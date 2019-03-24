@@ -56,8 +56,8 @@ class Sheets extends Component {
 
                                         {data.map(obj => (
                                             <TableRow align="center" key={obj.จังหวัด}>
-                                                <TableCell ><p>{obj.จังหวัด}</p></TableCell>
-                                                <TableCell ><p>{obj.อำเภอ}</p></TableCell>
+                                                <TableCell ><p align="center">{obj.จังหวัด}</p></TableCell>
+                                                <TableCell ><p align="center">{obj.อำเภอ}</p></TableCell>
                                                 <TableCell ><p>{obj.อปท}</p></TableCell>
                                                 <TableCell ><p>{obj.อายุ60ถึง69ปี}</p></TableCell>
                                                 <TableCell ><p>{obj.อายุ70ถึง79ปี}</p></TableCell>

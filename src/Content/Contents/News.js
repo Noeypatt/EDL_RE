@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './GB.css'
+import '../Content.css'
 import Sheets from '../Contents/Sheets'
 
 

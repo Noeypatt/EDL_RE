@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import H1 from "../Contents/H1"
 import H2 from "../Contents/H2"
-import './GB.css'
+import '../Content.css'
 
 
 class Health extends Component {
