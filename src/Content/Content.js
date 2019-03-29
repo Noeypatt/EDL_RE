@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import './Content.css';
 import GButton from './Contents/GButton'
-import SH from '../Content/show.png'
+import SH from '../Content/img/show.png'
 
 
 class Content extends Component {
 
     render() {
         return (
-            <div className="con" >
-               
-                 <img  src ={SH} width="100%"  /><br/><br/>
-                
+            <div className="con" >   
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-12" >

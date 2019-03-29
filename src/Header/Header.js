@@ -1,35 +1,61 @@
 import React, { Component } from 'react';
 import './Header.css'
-import Logo from '../Header/img/E.svg';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 class Header extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
+
     render() {
         return (
-            <div className="Bar" >
+            <div>
+                
+                <Navbar color="tranparent" light expand="md">
+                    <NavbarBrand href="/">Elderly</NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
 
-                <div  class="container-fluid"  >
-                    <div  class="row" >
-                        <div  class="col-lg-2 col-xs-12 " >
+                        <Nav className="auto" navbar>
+                            <NavItem>
+                                <NavLink href="#">1</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#">2</NavLink>
+                            </NavItem>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Login
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        Addmin
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        person
+                                    </DropdownItem>
+                                    <DropdownItem divider />
+                                    <DropdownItem>
+                                        Reset
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                        </Nav>
 
-                            <a  href="/"><img src={Logo} alt="Elderly" width="50px" /></a>
-                        </div>
-
-
-                        <div  class="col-lg-5 col-xs-12">
-                            <a class="nav-link active" href="/Expand"><h5 className="Bar" align="left">หน่วยงานที่เกี่ยวข้อง</h5></a>
-
-                        </div>
-
-
-                        <div class="col-lg-5 col-xs-12">
-                            <a class="nav-link " ><h5 align="right" >สายด่วน โทร. 1300</h5></a>
-                        </div>
-
-
-                    </div>
-
-                </div>
+                    </Collapse>
+                </Navbar>
 
             </div>
         );

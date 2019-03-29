@@ -5,8 +5,8 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import YouTube from 'react-youtube';
-import logoph from '../../Content/logoph.png'
-import logodop from '../../Content/logodop.png'
+import logoph from '../img/logoph.png'
+import logodop from '../img/logodop.png'
 import Namelist from './Namelist'
 import '../Content.css'
 
